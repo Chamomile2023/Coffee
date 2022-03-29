@@ -3,6 +3,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
 }
 .container {
 	width: 1200px;
@@ -58,6 +60,7 @@ font-family: 'Poppins', 'Arial', sans-serif;
 	opacity: 0.8;
 }
 .plan-link {
+	cursor: pointer;
 	padding: 15px 30px;
 	line-height: 25px;
 	border-radius: 6px;
@@ -144,4 +147,116 @@ font-family: 'Poppins', 'Arial', sans-serif;
 }
 .card__body-subtitle {
 	color: #333d4b;
+}
+/*  //!choose section */
+.choose{
+	height: 577px;
+	margin-top: 40px;
+	padding-top: 90px;
+	background-color: #2C343E;
+	border-radius: 6px;
+}
+.additional_style{
+	font-size: 40px;
+	line-height: 48px;
+	text-align: center;
+	color: #FEFCF7;
+}
+.choose__choose-cards{
+	display: flex;
+	justify-content: center;
+}
+.additional_subtitle{
+	width: 540px;
+	padding-top: 25px;
+	margin: auto;
+	text-align: center;
+	color: #FEFCF7;
+}
+.choose__choose-cards__card{
+	width: 350px;
+	height: 382px;
+	padding-top: 72px;
+	margin: 10px;
+	margin-top: 140px;
+	background: #0E8784;
+	border-radius: 8px;
+	text-align: center;
+}
+.additional_subtitle1{
+	width: 255px;
+	margin: auto;
+	color: #FEFCF7;
+}
+.additional_title{
+	color: #FEFCF7;
+}
+/*  //!choose section */
+.work{
+	margin-top: 320px;
+}
+.work__work-title{
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #83888F;
+}
+.work__work-title__rounds__liner{
+	width: 760px;
+	height: 1px;
+	display: flex;
+	margin-top: 80px;
+	justify-content: space-between;
+	border: 2px solid #FDD6BA;
+	box-sizing: border-box;
+}
+.work__work-title__rounds_round{
+	width: 31px;
+	height: 31px;
+	border-radius: 50%;
+	margin-top: -15px;
+	background: #FEFCF7;
+	border: 2px solid #0E8784;
+	box-sizing: border-box;
+}
+.work__work-boxes{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.work__work-box__title{
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 72px;
+	color: #FDD6BA;
+}
+.additional_text{
+	width: 285px;
+	padding-top: 42px;
+}
+/* //!footer */
+.coffee{
+	width: 100%;
+	background: #2C343E;
+	margin-top: 110px;
+	
+}
+.coffee_basic{
+	display: flex;
+	justify-content: space-between;
+}
+.coffee__coffee-logo{
+	display: flex;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.additional__nav{
+	width: 490px;
+}
+.coffee_coffee-icon{
+	padding-top: 25px;
+}
+.coffee__coffee-icon__coffee-link{
+	color: #FEFCF7;
+	padding: 15px;
 }
